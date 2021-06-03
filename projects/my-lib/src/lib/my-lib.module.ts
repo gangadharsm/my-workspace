@@ -1,16 +1,19 @@
 import { NgModule } from '@angular/core';
 import { MyLibComponent } from './my-lib.component';
+import { EllipsisPipe } from './ellipsis.pipe';
 
 
 
 @NgModule({
   declarations: [
-    MyLibComponent
+    MyLibComponent,
+    EllipsisPipe
   ],
   imports: [
   ],
   exports: [
-    MyLibComponent
+    MyLibComponent,
+    EllipsisPipe
   ]
 })
 export class MyLibModule { }
